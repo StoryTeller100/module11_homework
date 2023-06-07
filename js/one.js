@@ -30,17 +30,6 @@ function countOddAndEven(arr) {
   let evenCount = 0;
   let oddCount = 0;
   let zeroCOunt = 0;
-  //   for (let i = 0; i < arr.length; i++) {
-  //     console.log(arr[i]);
-  //   }
-
-  //   for (const key in arr) {
-  //     console.log(arr[key]);
-  //   }
-
-  //   for (const elem of arr) {
-  //     console.log(elem);
-  //   }
 
   arr.forEach((element) => {
     if (typeof element === "number" && !isNaN(element)) {
